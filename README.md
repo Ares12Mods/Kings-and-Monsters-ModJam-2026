@@ -21,11 +21,7 @@ gradlew.bat build
 
 (Use `./gradlew build` on Linux/macOS.) The build requires a Java 25 JDK — either set `JAVA_HOME` to a Java 25 installation, or let Gradle's toolchain resolution provision one automatically.
 
-The resulting mod jar is generated at:
-
-```
-build/libs/kingsandmonsters-mc26.1.2-neoforge-1.2.1.jar
-```
+The resulting mod jar is generated at `build/libs/kingsandmonsters-mc26.1.2-neoforge-1.2.1.jar`.
 
 ## Major Gameplay Features
 
