@@ -1,0 +1,23 @@
+{
+  "name": "The Path Ahead",
+  "category": "kingsandmonsters:getting_started",
+  "icon": "minecraft:filled_map",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Ogre Outposts are the clearest beginning. Their captains guard tribute and clues leading farther into tribal territory.$(br2)A Plains Outpost provides a Fort Map. A travelling Ogre Merchant also carries one. Follow either route when you are ready to challenge the Tribe's royal seat."
+    },
+    {
+      "type": "patchouli:relations",
+      "title": "Follow the Trail",
+      "entries": [
+        "kingsandmonsters:territory/outposts",
+        "kingsandmonsters:tribe/merchant",
+        "kingsandmonsters:territory/ogre_fort",
+        "kingsandmonsters:throne/ogre_king"
+      ],
+      "text": "The route is simple on parchment. The occupants make it less so."
+    }
+  ]
+}

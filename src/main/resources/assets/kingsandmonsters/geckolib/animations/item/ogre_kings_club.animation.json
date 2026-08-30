@@ -1,0 +1,9 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.ogre_kings_club.idle": {
+      "loop": true,
+      "bones": {}
+    }
+  }
+}

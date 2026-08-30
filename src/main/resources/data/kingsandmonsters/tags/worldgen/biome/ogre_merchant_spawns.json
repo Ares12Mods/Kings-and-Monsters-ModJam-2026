@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "#kingsandmonsters:has_structure/ogre_outpost_plains",
+    "#kingsandmonsters:has_structure/ogre_outpost_swamp"
+  ]
+}

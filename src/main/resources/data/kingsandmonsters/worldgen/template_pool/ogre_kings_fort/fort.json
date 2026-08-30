@@ -1,0 +1,16 @@
+{
+  "name": "kingsandmonsters:ogre_kings_fort/fort",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "kingsandmonsters:ogre_kings_fort/fort",
+        "processors": "kingsandmonsters:ogre_kings_fort",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

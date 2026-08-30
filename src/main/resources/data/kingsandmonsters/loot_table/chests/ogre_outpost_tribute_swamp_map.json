@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "kingsandmonsters:chests/ogre_outpost_tribute_swamp"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "functions": [
+            { "function": "kingsandmonsters:cached_fort_map" }
+          ]
+        }
+      ]
+    }
+  ]
+}

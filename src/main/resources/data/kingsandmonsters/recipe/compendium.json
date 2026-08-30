@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:bone",
+    "minecraft:vine"
+  ],
+  "result": {
+    "id": "patchouli:guide_book",
+    "count": 1,
+    "components": {
+      "patchouli:book": "kingsandmonsters:compendium"
+    }
+  }
+}

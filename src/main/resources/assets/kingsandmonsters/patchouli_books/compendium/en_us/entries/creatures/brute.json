@@ -1,0 +1,9 @@
+{
+  "name": "Ogre Brute",
+  "category": "kingsandmonsters:creatures",
+  "icon": "kingsandmonsters:brute_heart",
+  "pages": [
+    { "type": "patchouli:text", "text": "Brutes are living siege engines with short tempers and attacks heavy enough to leave a fighter Dazed.$(br2)Watch the body, not merely the weapon. Space is safety when a Brute commits to a slam. Its heart is a valuable charm for anyone who survives collecting it." },
+    { "type": "patchouli:entity", "entity": "kingsandmonsters:ogre_brute", "scale": 0.85, "offset": 0.0, "rotate": true, "text": "Large, loud, and surprisingly quick once anger wins the argument." }
+  ]
+}

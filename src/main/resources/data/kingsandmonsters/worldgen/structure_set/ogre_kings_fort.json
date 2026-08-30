@@ -1,0 +1,18 @@
+{
+  "structures": [
+    {
+      "structure": "kingsandmonsters:ogre_kings_fort",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "kingsandmonsters:swamp_fort_random_spread",
+    "spacing": 36,
+    "separation": 12,
+    "salt": 1829437114,
+    "frequency": 1.0,
+    "frequency_reduction_method": "default",
+    "spawn_exclusion_chunks": 128,
+    "minimum_spacing_chunks": 80
+  }
+}

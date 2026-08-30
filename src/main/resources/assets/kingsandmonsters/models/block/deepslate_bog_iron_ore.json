@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kingsandmonsters:block/deepslate_bog_iron_ore"
+  }
+}

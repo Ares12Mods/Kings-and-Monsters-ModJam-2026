@@ -1,0 +1,15 @@
+{
+  "parent": "kingsandmonsters:root",
+  "display": {
+    "icon": { "id": "kingsandmonsters:grunt_captain_banner" },
+    "title": { "translate": "advancement.kingsandmonsters.grunt_captain.title" },
+    "description": { "translate": "advancement.kingsandmonsters.grunt_captain.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeated": { "trigger": "minecraft:impossible" }
+  }
+}

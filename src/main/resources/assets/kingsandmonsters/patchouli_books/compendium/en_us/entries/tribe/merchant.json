@@ -1,0 +1,26 @@
+{
+  "name": "The Ogre Merchant",
+  "category": "kingsandmonsters:tribe",
+  "icon": "kingsandmonsters:ogre_merchant_backpack",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Ogre Merchant is a coward, a professional, and—when paid—a remarkable source of useful contraband.$(br2)He travels with guards whose strength reflects nearby tribal anger. Threaten him and the escort answers; trade with him and he offers a changing stock of food, relics, tools, and rare goods."
+    },
+    {
+      "type": "patchouli:entity",
+      "entity": "kingsandmonsters:ogre_merchant",
+      "scale": 0.78,
+      "offset": 0.0,
+      "rotate": true,
+      "text": "Every Merchant carries exactly one Fort Map trade and always offers the Ogre Truce service."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kingsandmonsters:golden_ogre_tooth,kingsandmonsters:ogre_merchant_backpack,kingsandmonsters:ogreblood_totem",
+      "title": "Premium Stock",
+      "text": "Gold buys ordinary stock. Diamonds and Golden Ogre Teeth open the more interesting pockets of his pack."
+    }
+  ]
+}

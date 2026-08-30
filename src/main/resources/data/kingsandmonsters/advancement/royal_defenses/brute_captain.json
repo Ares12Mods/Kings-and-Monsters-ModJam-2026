@@ -1,0 +1,15 @@
+{
+  "parent": "kingsandmonsters:root",
+  "display": {
+    "icon": { "id": "kingsandmonsters:brute_heart" },
+    "title": { "translate": "advancement.kingsandmonsters.brute_captain.title" },
+    "description": { "translate": "advancement.kingsandmonsters.brute_captain.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeated": { "trigger": "minecraft:impossible" }
+  }
+}

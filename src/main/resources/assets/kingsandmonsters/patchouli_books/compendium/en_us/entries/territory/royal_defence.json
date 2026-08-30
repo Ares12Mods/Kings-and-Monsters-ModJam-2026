@@ -1,0 +1,9 @@
+{
+  "name": "Royal Defence",
+  "category": "kingsandmonsters:territory",
+  "icon": "kingsandmonsters:ogre_brute_banner",
+  "pages": [
+    { "type": "patchouli:text", "text": "The Fort's Royal Defence pits intruders against the Tribe's elite. Grunt Captains, Mages, and Brutes each represent a different battlefield problem.$(br2)Your first defeat of each Captain is recorded wherever it occurs. Royal Defence is the Fort's separate trial sequence. Prepare to change tactics rather than forcing one weapon through every trial." },
+    { "type": "patchouli:relations", "entries": ["kingsandmonsters:creatures/grunt_captain", "kingsandmonsters:creatures/mage", "kingsandmonsters:creatures/brute"], "text": "Know the captains before the arena teaches the lesson more forcefully." }
+  ]
+}

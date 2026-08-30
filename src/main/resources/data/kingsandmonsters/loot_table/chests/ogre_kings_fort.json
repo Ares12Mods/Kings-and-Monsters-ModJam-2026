@@ -1,0 +1,73 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "min": 4, "max": 7, "type": "minecraft:uniform" },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 16,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 3, "max": 9, "type": "minecraft:uniform" } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "weight": 14,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 3, "max": 8, "type": "minecraft:uniform" } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "weight": 12,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 2, "max": 7, "type": "minecraft:uniform" } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "kingsandmonsters:raw_bog_iron",
+          "weight": 3,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 1, "max": 2, "type": "minecraft:uniform" } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 7,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 1, "max": 4, "type": "minecraft:uniform" } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 4,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 1, "max": 2, "type": "minecraft:uniform" } }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:experience_bottle",
+          "weight": 8,
+          "functions": [
+            { "function": "minecraft:set_count", "count": { "min": 2, "max": 6, "type": "minecraft:uniform" } }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "kingsandmonsters:bog_iron_band", "weight": 10 },
+        { "type": "minecraft:empty", "weight": 90 }
+      ]
+    }
+  ]
+}

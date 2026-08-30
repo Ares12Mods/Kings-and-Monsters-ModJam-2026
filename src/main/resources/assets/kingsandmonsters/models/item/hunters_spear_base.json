@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "particle": "kingsandmonsters:item/hunters_spear",
+    "layer0": "kingsandmonsters:item/hunters_spear"
+  }
+}

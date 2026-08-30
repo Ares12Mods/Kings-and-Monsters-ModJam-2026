@@ -1,0 +1,10 @@
+{
+  "name": "Tooth-Priced Relics",
+  "category": "kingsandmonsters:artifacts",
+  "icon": "kingsandmonsters:ogre_merchant_backpack",
+  "pages": [
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:ogre_merchant_backpack", "title": "Merchant Backpack", "text": "A wearable, openable storage pack sold only among the Merchant's rare stock. It costs both a Golden Ogre Tooth and diamonds." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:ogreblood_totem", "title": "Ogreblood Totem", "text": "Another rare Merchant relic, demanding an even greater tooth payment. Its normal tooltip records the exact behavior." },
+    { "type": "patchouli:relations", "entries": ["kingsandmonsters:tribe/merchant", "kingsandmonsters:creatures/grunt_captain"], "text": "Captains carry the currency. The Merchant decides what it is worth." }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "A Field Guide",
+  "category": "kingsandmonsters:getting_started",
+  "icon": "kingsandmonsters:bog_eye_charm",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "Kings & Monsters fills the wilds with organized threats, guarded territory, rare trophies, and rulers who do not surrender their crowns politely.$(br2)Explore ogre camps, learn what provokes the Tribe, and follow the trail toward its King. Curiosity is rewarded. Carelessness is punished—an unprepared traveler can be overwhelmed quickly."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kingsandmonsters:bog_eye_charm",
+      "title": "Read the Signs",
+      "text": "Real items in this compendium can be hovered for their normal tooltips. Recipe pages also use the recipes loaded by the game."
+    }
+  ]
+}

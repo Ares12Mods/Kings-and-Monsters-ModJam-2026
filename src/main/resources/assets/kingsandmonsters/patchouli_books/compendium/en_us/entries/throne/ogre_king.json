@@ -1,0 +1,11 @@
+{
+  "name": "The Ogre King",
+  "category": "kingsandmonsters:throne",
+  "icon": "kingsandmonsters:ogre_kings_crown",
+  "priority": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "At the heart of the Fort waits the ruler who claims every camp, patrol, and buried vein of Bog Iron.$(br2)The Ogre King is not merely a larger Grunt. Expect royal commands, violent control of space, and defenders who still recognize his authority. Learn the fight by surviving it; this book will not list every surprise." },
+    { "type": "patchouli:entity", "entity": "kingsandmonsters:ogre_lord", "scale": 0.85, "offset": 0.0, "rotate": true, "text": "Defeating the King completes $(italic)Usurped$() and changes what the bog will surrender." },
+    { "type": "patchouli:relations", "entries": ["kingsandmonsters:territory/ogre_fort", "kingsandmonsters:throne/royal_spoils", "kingsandmonsters:bog_iron/working_bog_iron"], "text": "A fallen King leaves more than an empty chair." }
+  ]
+}

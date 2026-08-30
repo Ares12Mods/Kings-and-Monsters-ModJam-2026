@@ -1,0 +1,10 @@
+{
+  "name": "Fort Relics",
+  "category": "kingsandmonsters:artifacts",
+  "icon": "kingsandmonsters:kings_cleaver",
+  "pages": [
+    { "type": "patchouli:text", "text": "The royal Fort holds weapons and tribute not found in an ordinary camp. Search beyond the obvious path, but expect every useful room to have an owner.$(br2)The Iron Maw is an ancient two-handed cleaver found among royal spoils." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:kings_cleaver", "title": "The Iron Maw", "text": "Kills feed its wielder, desperation sharpens it, and the Tyrant enchantment rewards fighting while surrounded. Hover for the complete current tooltip." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:hunters_spear", "title": "Hunter's Spear", "text": "Carried by Ogre Guards. It supports distinct Barbed and Heavy Throw enchantment paths." }
+  ]
+}

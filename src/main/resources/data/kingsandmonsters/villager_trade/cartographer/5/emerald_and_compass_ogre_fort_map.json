@@ -1,0 +1,42 @@
+{
+  "additional_wants": {
+    "id": "minecraft:compass"
+  },
+  "given_item_modifiers": [
+    {
+      "decoration": "minecraft:red_x",
+      "destination": "kingsandmonsters:on_ogre_fort_maps",
+      "function": "minecraft:exploration_map",
+      "search_radius": 100
+    },
+    {
+      "function": "minecraft:set_name",
+      "name": {
+        "translate": "filled_map.kingsandmonsters.ogre_kings_fort"
+      },
+      "target": "item_name"
+    },
+    {
+      "function": "minecraft:filtered",
+      "item_filter": {
+        "items": "minecraft:filled_map",
+        "predicates": {
+          "minecraft:map_id": {}
+        }
+      },
+      "on_fail": {
+        "function": "minecraft:discard"
+      }
+    }
+  ],
+  "gives": {
+    "id": "minecraft:map"
+  },
+  "max_uses": 1.0,
+  "reputation_discount": 0.2,
+  "wants": {
+    "count": 48.0,
+    "id": "minecraft:emerald"
+  },
+  "xp": 30.0
+}

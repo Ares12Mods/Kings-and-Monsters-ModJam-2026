@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "kingsandmonsters:item/ogre_grunt_captain_spawn_egg"
+  }
+}

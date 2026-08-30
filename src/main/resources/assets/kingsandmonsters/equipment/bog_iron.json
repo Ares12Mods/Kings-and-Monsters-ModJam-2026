@@ -1,0 +1,10 @@
+{
+  "layers": {
+    "humanoid": [
+      { "texture": "kingsandmonsters:bog_iron_layer_1" }
+    ],
+    "humanoid_leggings": [
+      { "texture": "kingsandmonsters:bog_iron_layer_2" }
+    ]
+  }
+}

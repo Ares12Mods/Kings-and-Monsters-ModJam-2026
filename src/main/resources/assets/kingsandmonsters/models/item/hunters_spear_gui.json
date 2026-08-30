@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:item/generated",
+  "gui_light": "front",
+  "ambientocclusion": false,
+  "textures": {
+    "layer0": "kingsandmonsters:item/hunters_spear_gui"
+  }
+}

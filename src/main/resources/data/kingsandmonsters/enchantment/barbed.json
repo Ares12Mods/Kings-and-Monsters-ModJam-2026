@@ -1,0 +1,13 @@
+{
+  "anvil_cost": 2,
+  "description": { "translate": "enchantment.kingsandmonsters.barbed" },
+  "effects": {},
+  "exclusive_set": "#kingsandmonsters:exclusive_set/ogre_weapon_signature",
+  "max_cost": { "base": 35, "per_level_above_first": 10 },
+  "max_level": 3,
+  "min_cost": { "base": 8, "per_level_above_first": 10 },
+  "primary_items": "#kingsandmonsters:enchantable/hunters_spear",
+  "slots": ["mainhand"],
+  "supported_items": "#kingsandmonsters:enchantable/hunters_spear",
+  "weight": 8
+}

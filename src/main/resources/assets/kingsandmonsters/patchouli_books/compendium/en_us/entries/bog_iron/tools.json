@@ -1,0 +1,12 @@
+{
+  "name": "Bog Iron Tools",
+  "category": "kingsandmonsters:bog_iron",
+  "icon": "kingsandmonsters:bog_iron_pickaxe",
+  "advancement": "kingsandmonsters:royal_defenses/usurped",
+  "pages": [
+    { "type": "patchouli:text", "text": "Refined Bog Iron forms a complete working set. Every displayed result is a real ItemStack: hover it for its current attributes and presentation." },
+    { "type": "patchouli:crafting", "recipe": "kingsandmonsters:bog_iron_sword", "recipe2": "kingsandmonsters:bog_iron_pickaxe", "title": "Sword & Pickaxe" },
+    { "type": "patchouli:crafting", "recipe": "kingsandmonsters:bog_iron_axe", "recipe2": "kingsandmonsters:bog_iron_shovel", "title": "Axe & Shovel" },
+    { "type": "patchouli:crafting", "recipe": "kingsandmonsters:bog_iron_hoe", "title": "Bog Iron Hoe" }
+  ]
+}

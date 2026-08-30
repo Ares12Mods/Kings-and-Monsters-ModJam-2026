@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "kingsandmonsters:ogre_outpost_swamp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "kingsandmonsters:multi_exclusion_random_spread",
+    "spacing": 20,
+    "separation": 10,
+    "salt": 1829437113,
+    "exclusion_zones": [
+      { "other_set": "kingsandmonsters:ogre_kings_fort", "chunk_count": 6 },
+      { "other_set": "kingsandmonsters:ogre_outpost_plains", "chunk_count": 4 },
+      { "other_set": "minecraft:villages", "chunk_count": 5 },
+      { "other_set": "minecraft:ruined_portals", "chunk_count": 3 },
+      { "other_set": "minecraft:pillager_outposts", "chunk_count": 4 },
+      { "other_set": "minecraft:swamp_huts", "chunk_count": 3 },
+      { "other_set": "minecraft:trail_ruins", "chunk_count": 3 },
+      { "other_set": "minecraft:strongholds", "chunk_count": 2 },
+      { "other_set": "minecraft:ancient_cities", "chunk_count": 2 },
+      { "other_set": "minecraft:trial_chambers", "chunk_count": 2 },
+      { "other_set": "minecraft:woodland_mansions", "chunk_count": 6 },
+      { "other_set": "minecraft:ocean_monuments", "chunk_count": 4 },
+      { "other_set": "minecraft:ocean_ruins", "chunk_count": 3 },
+      { "other_set": "minecraft:shipwrecks", "chunk_count": 3 }
+    ]
+  }
+}

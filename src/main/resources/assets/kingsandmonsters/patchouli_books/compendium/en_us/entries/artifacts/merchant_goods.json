@@ -1,0 +1,10 @@
+{
+  "name": "Merchant Goods",
+  "category": "kingsandmonsters:artifacts",
+  "icon": "kingsandmonsters:ogre_hookblade",
+  "pages": [
+    { "type": "patchouli:text", "text": "The Merchant's stock changes, but several goods appear only through his trade screen. Gold buys practical tools; his rare offers demand diamonds or Golden Ogre Teeth.$(br2)No optional combat mod is required to use these items." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:ogre_hookblade,kingsandmonsters:bog_eye_charm,kingsandmonsters:ironbelly_stew,kingsandmonsters:kings_tribute_bundle", "title": "Useful Stock", "text": "The Bog-Eye Charm locates nearby unopened loot. The Hookblade and stew serve more direct needs. A sealed King's Tribute Bundle contains a weighted selection of Ogre goods." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:rattlebone_ring,kingsandmonsters:warcaller_bell", "title": "Premium Stock", "text": "Expensive, uncommon, and sold one opportunity at a time." }
+  ]
+}

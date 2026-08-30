@@ -1,0 +1,27 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "open": {
+      "animation_length": 0.5,
+      "bones": {
+        "bag_top": {
+          "rotation": {
+            "0.0": {"post": {"vector": [0, 0, 0]}, "lerp_mode": "catmullrom"},
+            "0.5": {"post": {"vector": [30, 0, 0]}, "lerp_mode": "catmullrom"}
+          }
+        }
+      }
+    },
+    "close": {
+      "animation_length": 0.5,
+      "bones": {
+        "bag_top": {
+          "rotation": {
+            "0.0": {"post": {"vector": [30, 0, 0]}, "lerp_mode": "catmullrom"},
+            "0.5": {"post": {"vector": [0, 0, 0]}, "lerp_mode": "catmullrom"}
+          }
+        }
+      }
+    }
+  }
+}

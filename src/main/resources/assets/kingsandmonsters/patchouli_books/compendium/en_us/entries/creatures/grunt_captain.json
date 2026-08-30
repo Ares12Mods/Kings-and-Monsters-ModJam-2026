@@ -1,0 +1,9 @@
+{
+  "name": "Grunt Captain",
+  "category": "kingsandmonsters:creatures",
+  "icon": "kingsandmonsters:grunt_captain_banner",
+  "pages": [
+    { "type": "patchouli:text", "text": "A Grunt Captain is a veteran loud enough to turn nearby ogres into a coordinated problem. It fights as a tougher Grunt and calls the Tribe to attention.$(br2)Captains carry normal Grunt spoils and retain their prized Golden Ogre Tooth—the mark that makes Merchants suddenly more respectful." },
+    { "type": "patchouli:entity", "entity": "kingsandmonsters:ogre_grunt_captain", "scale": 0.73, "offset": 0.0, "rotate": true, "text": "Its salute is not for you. It is for everyone about to surround you." }
+  ]
+}

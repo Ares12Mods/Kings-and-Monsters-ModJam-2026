@@ -1,0 +1,13 @@
+{
+  "name": "The Bog Yields",
+  "category": "kingsandmonsters:bog_iron",
+  "icon": "kingsandmonsters:raw_bog_iron",
+  "advancement": "kingsandmonsters:royal_defenses/usurped",
+  "priority": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "Bog Iron Ore rejects survival mining while an Ogre King still rules. Once a player defeats the King, that claim breaks for the world and the buried metal can be recovered.$(br2)Raw Bog Iron can be smelted or blasted into Bog Iron, then forged into a full equipment line." },
+    { "type": "patchouli:smelting", "recipe": "kingsandmonsters:bog_iron_from_smelting_raw_bog_iron", "recipe2": "kingsandmonsters:bog_iron_from_blasting_raw_bog_iron", "title": "Refining Bog Iron" },
+    { "type": "patchouli:crafting", "recipe": "kingsandmonsters:raw_bog_iron_block", "recipe2": "kingsandmonsters:raw_bog_iron_from_raw_bog_iron_block", "title": "Storing Raw Ore" },
+    { "type": "patchouli:crafting", "recipe": "kingsandmonsters:bog_iron_block", "recipe2": "kingsandmonsters:bog_iron_from_bog_iron_block", "title": "Storing Bog Iron" }
+  ]
+}

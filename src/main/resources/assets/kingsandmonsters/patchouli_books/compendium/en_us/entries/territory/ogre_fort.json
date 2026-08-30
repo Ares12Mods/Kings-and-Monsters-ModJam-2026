@@ -1,0 +1,11 @@
+{
+  "name": "Ogre King's Fort",
+  "category": "kingsandmonsters:territory",
+  "icon": "kingsandmonsters:ogre_kings_banner",
+  "priority": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "The Fort is the Ogre King's seat: a fortified settlement of guards, tribute, trials, and royal authority.$(br2)Bring supplies for a sustained assault. The walls are only the beginning, and every defender inside considers the same ruler worth protecting." },
+    { "type": "patchouli:spotlight", "item": "minecraft:filled_map", "title": "Finding the Fort", "text": "Use the Fort Map recovered from a Plains Outpost or purchased from an Ogre Merchant. It points to a guaranteed royal stronghold." },
+    { "type": "patchouli:relations", "entries": ["kingsandmonsters:territory/royal_defence", "kingsandmonsters:throne/ogre_king"], "text": "Survive the defenders, then decide whether the crown is worth the final challenge." }
+  ]
+}

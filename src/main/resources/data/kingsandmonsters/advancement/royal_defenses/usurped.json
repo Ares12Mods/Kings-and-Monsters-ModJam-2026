@@ -1,0 +1,18 @@
+{
+  "parent": "kingsandmonsters:root",
+  "display": {
+    "icon": { "id": "kingsandmonsters:ogre_kings_crown" },
+    "title": { "translate": "advancement.kingsandmonsters.usurped.title" },
+    "description": { "translate": "advancement.kingsandmonsters.usurped.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeated": { "trigger": "minecraft:impossible" }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "name": "kingsandmonsters:ogre_outpost/outposts",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 2,
+      "element": {
+        "location": "kingsandmonsters:ogre_outpost/brute_outpost",
+        "processors": "kingsandmonsters:ogre_outpost_brute",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kingsandmonsters:ogre_outpost/mage_outpost",
+        "processors": "kingsandmonsters:ogre_outpost_mage",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "kingsandmonsters:ogre_outpost/mage_outpost_2",
+        "processors": "kingsandmonsters:ogre_outpost_mage_2",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "location": "kingsandmonsters:ogre_outpost/grunt_outpost",
+        "processors": "kingsandmonsters:ogre_outpost_grunt",
+        "projection": "rigid",
+        "override_liquid_settings": "ignore_waterlogging",
+        "element_type": "minecraft:single_pool_element"
+      }
+    }
+  ]
+}

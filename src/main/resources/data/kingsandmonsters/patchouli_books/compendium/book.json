@@ -1,0 +1,20 @@
+{
+  "name": "Kings & Monsters",
+  "landing_text": "A weather-stained field guide to ogre territory, dangerous relics, and the crowns waiting beyond the mire.$(br2)Explore carefully. The Ogre Tribe remembers insults longer than it remembers debts.",
+  "version": 1,
+  "creative_tab": "kingsandmonsters:kings_and_monsters_tab",
+  "use_resource_pack": true,
+  "model": "kingsandmonsters:compendium",
+  "book_texture": "patchouli:textures/gui/book_brown.png",
+  "text_color": "2B2118",
+  "header_color": "564126",
+  "nameplate_color": "B08A3C",
+  "link_color": "4D672E",
+  "link_hover_color": "9A6C24",
+  "progress_bar_color": "7F913E",
+  "progress_bar_background": "3A3024",
+  "show_progress": false,
+  "show_toasts": true,
+  "pause_game": false,
+  "text_overflow_mode": "resize"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "kingsandmonsters:item/ogre_hookblade"
+  }
+}

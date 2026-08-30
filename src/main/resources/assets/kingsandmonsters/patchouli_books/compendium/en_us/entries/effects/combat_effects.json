@@ -1,0 +1,27 @@
+{
+  "name": "Ogre Combat Effects",
+  "category": "kingsandmonsters:effects",
+  "icon": "minecraft:fermented_spider_eye",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "title": "Crippled",
+      "text": "Crippled reduces movement speed by 15% and prevents sprinting. Ogre Grunt bites and thrown Hunter's Spears can inflict it.$(br2)Its duration cannot be refreshed while already active, giving the victim a fixed window to endure."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Dazed",
+      "text": "Dazed reduces movement speed by 20% and attack speed by 15%.$(br2)It is inflicted by the heaviest attacks used by Ogre Brutes and the Ogre King. When a large ogre commits to a slam, distance is the safest answer."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bleeding",
+      "text": "Bleeding deals periodic damage and releases red particles. Hunter's Spears enchanted with Barbed can apply it in melee or when thrown.$(br2)Higher Barbed levels increase its damage. Bleeding cannot be refreshed while already active."
+    },
+    {
+      "type": "patchouli:text",
+      "title": "Bogfume Rage",
+      "text": "Bogfume Rage empowers ogres standing inside an Ogre Mage's poison fog. An empowered ogre deals 20% more damage and takes 15% less damage.$(br2)The effect is refreshed while the ogre remains in the fog. Break up the group or leave the cloud before engaging."
+    }
+  ]
+}

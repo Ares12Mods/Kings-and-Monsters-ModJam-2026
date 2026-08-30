@@ -1,0 +1,9 @@
+{
+  "name": "Ogre Archer",
+  "category": "kingsandmonsters:creatures",
+  "icon": "kingsandmonsters:buckler",
+  "pages": [
+    { "type": "patchouli:text", "text": "Archers punish travelers who focus only on the largest threat. They support ogre groups from range and are most dangerous when a palisade or another ogre keeps you occupied.$(br2)An Archer may drop its buckler, a hands-slot relic useful to bow users and anyone tired of incoming arrows." },
+    { "type": "patchouli:entity", "entity": "kingsandmonsters:ogre_archer", "scale": 0.76, "offset": 0.0, "rotate": true, "text": "Break line of sight, then choose when to cross the open ground." }
+  ]
+}

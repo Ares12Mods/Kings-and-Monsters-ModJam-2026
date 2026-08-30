@@ -1,0 +1,16 @@
+{
+  "name": "Patrols",
+  "category": "kingsandmonsters:tribe",
+  "icon": "kingsandmonsters:grunt_captain_banner",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "An angry Tribe does not wait forever behind a palisade. Patrols seek out players who have drawn its attention.$(br2)Greater anger brings stronger company: ordinary Grunts give way to Archers, Mages, Brutes, and Captains. Ogres also rally to defend nearby allies, so a careless first strike can become a crowded argument."
+    },
+    {
+      "type": "patchouli:relations",
+      "entries": ["kingsandmonsters:tribe/anger", "kingsandmonsters:territory/outposts"],
+      "text": "Patrols are the consequence. Camps are usually the cause."
+    }
+  ]
+}

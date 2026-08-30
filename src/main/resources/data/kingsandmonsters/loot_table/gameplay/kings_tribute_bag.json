@@ -1,0 +1,60 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:beef", "weight": 18, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 6}}]},
+        {"type": "minecraft:item", "name": "minecraft:cooked_beef", "weight": 14, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 6}}]},
+        {"type": "minecraft:item", "name": "minecraft:porkchop", "weight": 16, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:cooked_porkchop", "weight": 12, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:mutton", "weight": 15, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:cooked_mutton", "weight": 10, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:rabbit", "weight": 8, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 3}}]},
+        {"type": "minecraft:item", "name": "minecraft:cooked_rabbit", "weight": 7, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 3}}]}
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:gold_ingot", "weight": 45, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 6}}]},
+        {"type": "minecraft:item", "name": "minecraft:emerald", "weight": 20, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 3}}]},
+        {"type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 20, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:gold_nugget", "weight": 15, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 6, "max": 18}}]}
+      ]
+    },
+    {
+      "rolls": {"type": "minecraft:uniform", "min": 1, "max": 3},
+      "entries": [
+        {"type": "minecraft:item", "name": "minecraft:gold_ingot", "weight": 18, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 4}}]},
+        {"type": "minecraft:item", "name": "minecraft:beef", "weight": 10, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:porkchop", "weight": 9, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:mutton", "weight": 9, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 5}}]},
+        {"type": "minecraft:item", "name": "minecraft:lapis_lazuli", "weight": 12, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 3, "max": 10}}]},
+        {"type": "minecraft:item", "name": "minecraft:redstone", "weight": 12, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 4, "max": 12}}]},
+        {"type": "minecraft:item", "name": "minecraft:emerald", "weight": 9, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 2}}]},
+        {"type": "minecraft:item", "name": "minecraft:iron_ingot", "weight": 10, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 2, "max": 4}}]},
+        {"type": "minecraft:item", "name": "kingsandmonsters:raw_bog_iron", "weight": 7, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 3}}]},
+        {"type": "minecraft:item", "name": "minecraft:diamond", "weight": 3, "functions": [{"function": "minecraft:set_count", "count": {"type": "minecraft:uniform", "min": 1, "max": 2}}]},
+        {"type": "minecraft:item", "name": "minecraft:golden_apple", "weight": 1}
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.50}],
+      "entries": [
+        {"type": "minecraft:item", "name": "kingsandmonsters:golden_ogre_tooth"}
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [{"condition": "minecraft:random_chance", "chance": 0.08}],
+      "entries": [
+        {"type": "minecraft:item", "name": "kingsandmonsters:ogre_tooth_necklace", "weight": 4},
+        {"type": "minecraft:item", "name": "kingsandmonsters:buckler", "weight": 3},
+        {"type": "minecraft:item", "name": "kingsandmonsters:bogfume_charm", "weight": 2},
+        {"type": "minecraft:item", "name": "kingsandmonsters:brute_heart", "weight": 1}
+      ]
+    }
+  ]
+}

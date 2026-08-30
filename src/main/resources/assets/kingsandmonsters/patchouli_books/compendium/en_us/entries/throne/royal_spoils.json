@@ -1,0 +1,11 @@
+{
+  "name": "Claiming the Throne",
+  "category": "kingsandmonsters:throne",
+  "icon": "kingsandmonsters:ogre_kings_club",
+  "advancement": "kingsandmonsters:royal_defenses/usurped",
+  "pages": [
+    { "type": "patchouli:text", "text": "The King is dead. The Tribe now has to decide what that makes you.$(br2)His crown changes how lesser ogres regard its wearer, though elite challengers may dispute the claim. His club carries the weight of a royal ground slam." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:ogre_kings_crown", "title": "Ogre King's Crown", "text": "Wear the claim. Expect the Tribe to notice." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:ogre_kings_club", "title": "Ogre King's Club", "text": "A royal weapon whose active slam and exact combat attributes are shown in its tooltip." }
+  ]
+}

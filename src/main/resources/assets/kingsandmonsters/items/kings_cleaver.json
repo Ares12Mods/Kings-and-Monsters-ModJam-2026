@@ -1,0 +1,13 @@
+{
+  "model": {
+    "type": "minecraft:select",
+    "property": "minecraft:display_context",
+    "cases": [
+      {
+        "when": ["gui"],
+        "model": { "type": "minecraft:model", "model": "kingsandmonsters:item/kings_cleaver_gui" }
+      }
+    ],
+    "fallback": { "type": "minecraft:model", "model": "kingsandmonsters:item/kings_cleaver_held" }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Ogre Grunt",
+  "category": "kingsandmonsters:creatures",
+  "icon": "kingsandmonsters:ogre_grunt_spawn_egg",
+  "pages": [
+    { "type": "patchouli:text", "text": "Grunts form the muscle of the Ogre Tribe. They close distance quickly, fight with little concern for personal space, and may leave a victim Crippled with a bite.$(br2)They sometimes carry Raw Bog Iron or an Ogre Tooth Necklace. Where one Grunt shouts, others are rarely far away." },
+    { "type": "patchouli:entity", "entity": "kingsandmonsters:ogre_grunt", "scale": 0.80, "offset": 0.0, "rotate": true, "text": "Common does not mean harmless—especially inside a camp." }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "bog_iron",
+  "ingredient": "kingsandmonsters:deepslate_bog_iron_ore",
+  "result": {
+    "id": "kingsandmonsters:bog_iron"
+  }
+}

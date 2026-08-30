@@ -1,0 +1,10 @@
+{
+  "name": "Ogre Trophies",
+  "category": "kingsandmonsters:artifacts",
+  "icon": "kingsandmonsters:ogre_tooth_necklace",
+  "pages": [
+    { "type": "patchouli:text", "text": "Some ogres carry relics that fit Curios slots. Hover each trophy here to inspect its full production tooltip and slot information.$(br2)These are creature spoils rather than crafting projects; seek the ogre whose habits match the relic." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:ogre_tooth_necklace,kingsandmonsters:brute_heart,kingsandmonsters:bog_iron_band", "title": "Strength & Stubbornness", "text": "Grunts may carry necklaces; Brutes may leave hearts. Bog Iron Bands rest in Ogre strongholds." },
+    { "type": "patchouli:spotlight", "item": "kingsandmonsters:bogfume_charm,kingsandmonsters:buckler", "title": "Fog & Arrows", "text": "Mages and Archers are the respective sources of these specialized relics." }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "processors": [
+    {
+      "processor_type": "kingsandmonsters:fort_footprint_recorder"
+    },
+    {
+      "processor_type": "kingsandmonsters:outpost_mob_loot",
+      "variant": "grunt"
+    },
+    {
+      "processor_type": "kingsandmonsters:ogre_trial_spawner"
+    },
+    {
+      "processor_type": "minecraft:rule",
+      "rules": [
+        {
+          "input_predicate": {
+            "predicate_type": "minecraft:block_match",
+            "block": "minecraft:trapped_chest"
+          },
+          "location_predicate": {
+            "predicate_type": "minecraft:always_true"
+          },
+          "output_state": {
+            "Name": "minecraft:trapped_chest"
+          },
+          "block_entity_modifier": {
+            "type": "minecraft:append_loot",
+            "loot_table": "kingsandmonsters:chests/ogre_outpost_tribute"
+          }
+        }
+      ]
+    }
+  ]
+}

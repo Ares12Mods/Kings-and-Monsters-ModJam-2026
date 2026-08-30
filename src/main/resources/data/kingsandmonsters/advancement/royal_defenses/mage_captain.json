@@ -1,0 +1,15 @@
+{
+  "parent": "kingsandmonsters:root",
+  "display": {
+    "icon": { "id": "kingsandmonsters:bogfume_charm" },
+    "title": { "translate": "advancement.kingsandmonsters.mage_captain.title" },
+    "description": { "translate": "advancement.kingsandmonsters.mage_captain.description" },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "defeated": { "trigger": "minecraft:impossible" }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "first_tick": {
+      "trigger": "minecraft:tick"
+    }
+  },
+  "rewards": {
+    "loot": ["kingsandmonsters:gameplay/grant_compendium"]
+  }
+}

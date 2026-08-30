@@ -1,0 +1,18 @@
+{
+  "name": "Ogre Anger",
+  "category": "kingsandmonsters:tribe",
+  "icon": "kingsandmonsters:warcaller_bell",
+  "priority": true,
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "The Tribe keeps one shared memory of provocation. Its visible states are $(bold)Appeased$(), $(bold)Low$(), $(bold)Moderate$(), and $(bold)High$().$(br2)Opening guarded tribute and killing ogres near their camps worsens relations. Defeating hostile patrols and time itself can cool their anger. Hold $(bold)H$() anywhere to inspect the current mood."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": "kingsandmonsters:golden_ogre_tooth",
+      "title": "Buying Peace",
+      "text": "Every Merchant accepts a Golden Ogre Tooth for an Ogre Truce, reducing the Tribe's anger. It is peace by receipt, not friendship."
+    }
+  ]
+}

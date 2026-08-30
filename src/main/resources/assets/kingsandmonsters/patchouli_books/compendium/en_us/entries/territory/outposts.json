@@ -1,0 +1,11 @@
+{
+  "name": "Ogre Outposts",
+  "category": "kingsandmonsters:territory",
+  "icon": "kingsandmonsters:grunt_captain_banner",
+  "priority": true,
+  "pages": [
+    { "type": "patchouli:text", "text": "Outposts are occupied pieces of Ogre territory built around a captain and guarded tribute.$(br2)Plains and Swamp Outposts share the same possible leaders: Grunt Captain, Brute, or Mage. Their layout and surroundings differ, but opening their tribute is understood as theft by the entire Tribe." },
+    { "type": "patchouli:spotlight", "item": "minecraft:filled_map", "title": "A Route to the Fort", "text": "The tribute at a Plains Outpost reliably yields a Fort Map. Swamp Outposts may also hold one, but are not the guaranteed route." },
+    { "type": "patchouli:relations", "entries": ["kingsandmonsters:tribe/anger", "kingsandmonsters:territory/ogre_fort"], "text": "An Outpost introduces both the Tribe's memory and its larger ambitions." }
+  ]
+}

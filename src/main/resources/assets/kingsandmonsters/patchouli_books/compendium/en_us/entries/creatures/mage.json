@@ -1,0 +1,9 @@
+{
+  "name": "Ogre Mage",
+  "category": "kingsandmonsters:creatures",
+  "icon": "kingsandmonsters:bogfume_charm",
+  "pages": [
+    { "type": "patchouli:text", "text": "Ogre Mages turn the battlefield poisonous. Their bogfume threatens intruders while empowering Grunts that remain inside it.$(br2)Do not let a crowd settle comfortably in the fog. A defeated Mage may leave behind the Bogfume Charm that shaped its craft." },
+    { "type": "patchouli:entity", "entity": "kingsandmonsters:ogre_mage", "scale": 0.75, "offset": 0.0, "rotate": true, "text": "When the air turns green, reposition before the whole warband benefits." }
+  ]
+}

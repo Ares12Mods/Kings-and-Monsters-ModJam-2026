@@ -1,0 +1,9 @@
+{
+  "name": "Ogre Guard",
+  "category": "kingsandmonsters:creatures",
+  "icon": "kingsandmonsters:hunters_spear",
+  "pages": [
+    { "type": "patchouli:text", "text": "Guards protect the royal Fort and carry Hunter's Spears suited to both melee and throwing.$(br2)Their discipline makes them more than another wandering Grunt. A recovered spear can be improved with the Barbed or Heavy Throw enchantment paths, but those paths do not mix." },
+    { "type": "patchouli:entity", "entity": "kingsandmonsters:ogre_guard", "scale": 0.72, "offset": 0.0, "rotate": true, "text": "The spear is dangerous at every distance. Closing the gap is not the whole answer." }
+  ]
+}

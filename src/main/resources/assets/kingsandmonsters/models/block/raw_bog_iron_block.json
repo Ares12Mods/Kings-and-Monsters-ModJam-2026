@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "kingsandmonsters:block/raw_bog_iron_block"
+  }
+}
